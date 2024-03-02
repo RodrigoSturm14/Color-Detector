@@ -32,5 +32,5 @@ while True:
   if cv2.waitKey(40) & 0xFF == ord('q'):
     break
 
-#webcam.release()
+webcam.release()
 cv2.destroyAllWindows()
